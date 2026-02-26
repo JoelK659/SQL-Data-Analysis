@@ -27,9 +27,13 @@ This project contains a Microsoft Access database that analyzes a bike store's s
 Adds the total value of the stock on hand to the list of the product_names and quantity on hand for the 10 products with the most stock on hand (multiplies price with quantity).
 
 SELECT TOP 10 Products.product_name, SUM(Stocks.quantity) AS TotalQuantity, ROUND(SUM(Products.list_price * Stocks.quantity), 2) AS TotalValue
+
 FROM Products
+
 INNER JOIN Stocks ON Products.product_id = Stocks.product_id
+
 GROUP BY Products.product_name
+
 ORDER BY SUM(Stocks.quantity) DESC;
 
 <img width="634" height="348" alt="image" src="https://github.com/user-attachments/assets/5e735dfe-7c91-459b-8d65-441153a34292" />
