@@ -32,7 +32,6 @@ INNER JOIN Stocks ON Products.product_id = Stocks.product_id
 GROUP BY Products.product_name
 ORDER BY SUM(Stocks.quantity) DESC;
 
-Output:
 <img width="634" height="348" alt="image" src="https://github.com/user-attachments/assets/5e735dfe-7c91-459b-8d65-441153a34292" />
 
 
