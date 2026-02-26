@@ -51,4 +51,5 @@ Other Queries: See the queries/ folder for additional scripts.
 - Totals are displayed with up to 2 decimal places.
 - Query structure is optimized for readability and Access compatibility.
 
+---
 This project demonstrates relational database design, SQL aggregation, and query-based reporting to analyze store sales using Microsoft Access.
