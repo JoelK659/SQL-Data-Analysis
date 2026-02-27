@@ -36,7 +36,8 @@ GROUP BY Products.product_name
 
 ORDER BY SUM(Stocks.quantity) DESC;
 
-<img width="634" height="348" alt="image" src="https://github.com/user-attachments/assets/5e735dfe-7c91-459b-8d65-441153a34292" />
+<img width="842" height="221" alt="image" src="https://github.com/user-attachments/assets/21d918f0-1062-422e-a94b-4067ca8990f7" />
+
 
 
 Other Queries: See the queries/ folder for additional scripts.
