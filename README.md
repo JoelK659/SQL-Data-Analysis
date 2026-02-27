@@ -40,7 +40,7 @@ ORDER BY SUM(Stocks.quantity) DESC;
 
 
 
-Other Queries: See the queries/ folder for additional scripts.
+Other Queries: See the `queries/` folder for additional scripts.
 
 ## How to Use
 1. Open the provided Bike Store.accdb file in Microsoft Access.
